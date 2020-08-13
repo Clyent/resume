@@ -1,0 +1,56 @@
+img {
+    position: fixed;
+    border-radius: 50%
+
+}
+
+.logo-wrapper {
+    position: relative;
+    top: 100px
+
+}
+
+
+.resume-wrapper {
+      position: fixed;
+      top: 20%;
+      left: 20%;
+      margin-top: -50px;
+      margin-left: -100px;
+      background-color: rgb(0,0,0,0.2)
+
+
+
+}
+
+.resume {
+    color: white;
+    display: inline-block;
+
+}
+
+
+ul {
+    list-style-type: circle;
+    font-size: 20px;
+
+}
+
+
+#experience {
+    position: fixed;
+     top: 50%;
+     left: 20%;
+     margin-top: -50px;
+     margin-left: -100px;
+     background-color: rgb(0,0,0,0.2)
+}
+
+#education {
+    position: fixed;
+    top: 83%;
+    left: 20%;
+    margin-top: -70px;
+    margin-left: -100px;
+    background-color: rgb(0,0,0,0.2)
+}

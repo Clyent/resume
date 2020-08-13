@@ -1,0 +1,54 @@
+h1{
+    position: fixed;
+    top: 300px;
+    right: 700px;
+    color: white;
+
+}
+
+img {
+    
+    border-radius: 50%
+
+}
+
+.logo-wrapper {
+    position: relative;
+    top: 100px
+
+}
+
+
+.intro {
+    position: absolute;
+
+    animation-name: example;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes example {
+  from {top: 0px}
+  to {top: 400px}
+
+}
+
+.hi {
+    color: white;
+    font-size: 4em
+}
+
+.summary {
+    text-indent: 5%;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(0,0,0,0.2)
+
+}
+
+.summary-wrapper {
+
+    left: 500px;
+    position: absolute;
+}
